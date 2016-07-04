@@ -18,11 +18,11 @@ Meteor.methods({
     return Clients.insert(newObj);
   },
 
-  removeCliente(id) {
+  removeClient(id) {
     return Clients.remove({_id: id})
   },
 
-  editCliente(id, name) {
+  editClient(id, name) {
     return Clients.update({_id: id}, {$set: {name: name}});
   }
 });
