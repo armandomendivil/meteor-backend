@@ -1,4 +1,4 @@
 import { Meteor } from 'meteor/meteor';
-import Client from './collections/clients';
+import Clients from './collections/clients';
 
-Meteor.publish('client', () => Client.find());
+Meteor.publish('clients', () => Clients.find());

@@ -1,3 +1,3 @@
-const clients = new Meteor.Collection('clients');
+const Clients = new Meteor.Collection('clients');
 
-export default clients;
+export default Clients;
